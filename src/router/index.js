@@ -7,6 +7,7 @@ import Redact from '../view/redact.vue';
 import Login from '../view/login.vue';
 import Registry from '../view/registry.vue';
 import Tab from '../view/tab.vue';
+import Aaa from '../view/aaa.vue';
 
 Vue.use(VueRouter);
 
@@ -45,6 +46,11 @@ const routes = [
         path: '/tab',
         name: 'tab',
         component: Tab,
+    },
+    {
+        path: '/aaa',
+        name: 'aaa',
+        component: Aaa,
     },
 ];
 
