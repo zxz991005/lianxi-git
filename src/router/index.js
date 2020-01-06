@@ -8,6 +8,7 @@ import Login from '../view/login.vue';
 import Registry from '../view/registry.vue';
 import Tab from '../view/tab.vue';
 import Aaa from '../view/aaa.vue';
+import Delete from '../view/delete.vue';
 
 Vue.use(VueRouter);
 
@@ -51,6 +52,12 @@ const routes = [
         path: '/aaa',
         name: 'aaa',
         component: Aaa,
+    },
+
+    {
+        path: '/delete',
+        name: 'delete',
+        component: Delete,
     },
 ];
 
