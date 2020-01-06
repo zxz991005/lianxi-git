@@ -10,6 +10,7 @@ import Tab from '../view/tab.vue';
 import Aaa from '../view/aaa.vue';
 import Delete from '../view/delete.vue';
 import Type from "../view/type/type.vue";
+import Homes from '../view/homes/homes.vue';
 Vue.use(VueRouter);
 
 const routes = [
@@ -63,7 +64,12 @@ const routes = [
         path: '/type',
         name: 'type',
         component:Type,
-    }
+    },
+    {
+        path: '/homes',
+        name: 'homes',
+        component: Homes,
+    },
 ];
 
 const router = new VueRouter({
