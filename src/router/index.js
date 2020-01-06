@@ -11,7 +11,8 @@ import Aaa from '../view/aaa.vue';
 import Delete from '../view/delete.vue';
 import Type from "../view/type/type.vue";
 import Homes from '../view/homes/homes.vue';
-import Angel from "../view/angel.vue"
+import Angel from "../view/angel.vue";
+import My from '../view/My/My.vue';
 Vue.use(VueRouter);
 
 const routes = [
@@ -75,6 +76,10 @@ const routes = [
         path: '/angel',
         name: 'angel',
         component: Angel,
+    },{
+        path:'/my',
+        name:'my',
+        component:My
     }
 ];
 
