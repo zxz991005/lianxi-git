@@ -9,7 +9,7 @@ import Registry from '../view/registry.vue';
 import Tab from '../view/tab.vue';
 import Aaa from '../view/aaa.vue';
 import Delete from '../view/delete.vue';
-
+import Type from "../view/type/type.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -59,6 +59,11 @@ const routes = [
         name: 'delete',
         component: Delete,
     },
+    {
+        path: '/type',
+        name: 'type',
+        component:Type,
+    }
 ];
 
 const router = new VueRouter({
