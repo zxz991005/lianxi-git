@@ -11,6 +11,7 @@ import Aaa from '../view/aaa.vue';
 import Delete from '../view/delete.vue';
 import Type from "../view/type/type.vue";
 import Homes from '../view/homes/homes.vue';
+import Angel from "../view/angel.vue"
 Vue.use(VueRouter);
 
 const routes = [
@@ -70,6 +71,11 @@ const routes = [
         name: 'homes',
         component: Homes,
     },
+    {
+        path: '/angel',
+        name: 'angel',
+        component: Angel,
+    }
 ];
 
 const router = new VueRouter({
